@@ -4,7 +4,6 @@ import { Route, Routes } from "react-router-dom";
 import HomeLayout from "../Layout/Home.layout";
 
 const HomeLayoutHOC = ({ component: Component, ...rest }) => {
-  console.log(rest);
   return (
     <>
       <Routes>
