@@ -6,7 +6,7 @@ import Temp from "./Components/temp";
 import Master from "./Components/master";
 
 function App() {
-  console.log('hiug');
+  console.log(process.env.NODE_ENV);
   return (
     <>
       <HomeLayoutHOC path='/' exact component={Temp} />
